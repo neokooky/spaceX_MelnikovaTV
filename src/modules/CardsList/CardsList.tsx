@@ -61,7 +61,7 @@ export const CardsList = () => {
       <SimpleGrid cols={4} verticalSpacing="sm">
         {data.launches.map((launch) => (
           <Card
-            key={launch.mission_name}
+            key={launch.launch_date_unix}
             src={launch.links?.mission_patch_small ?? null}
             title={launch.mission_name}
             text={launch.rocket?.rocket_name ?? null}

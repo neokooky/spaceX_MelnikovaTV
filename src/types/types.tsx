@@ -8,6 +8,7 @@ export type Launch = {
     rocket_name: string;
   };
   details?: string;
+  launch_date_unix: number;
 };
 
 export type State = {

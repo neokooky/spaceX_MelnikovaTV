@@ -1,0 +1,10 @@
+.card {
+  width: 240px;
+  height: 290px;
+  justify-content: space-between;
+}
+
+.card-image {
+  margin: 0px !important;
+  margin-inline: auto !important;
+}

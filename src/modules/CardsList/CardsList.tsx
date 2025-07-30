@@ -30,7 +30,7 @@ export const CardsList = () => {
 
     const fetchLaunches = async () => {
       try {
-        const response = await fetch("https://api.spacexdata.com/v4/launches", {
+        const response = await fetch("https://api.spacexdata.com/v3/launches", {
           signal,
         });
 
